@@ -1,6 +1,8 @@
 import fresh_tomatoes
 import media
 
+
+# Create instances of the Movie class and hold information of the movies
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -31,5 +33,8 @@ mulan = media.Movie("Mulan",
                         "https://upload.wikimedia.org/wikipedia/en/a/a3/Movie_poster_mulan.JPG",
                         "https://www.youtube.com/watch?v=wAbGAkkOgcM")
 
-movies = [toy_story, wall_e, finding_nemo, shrek, ratatouille, mulan ]
+# Add the instances to a list
+movies = [toy_story, wall_e, finding_nemo, shrek, ratatouille, mulan]
+
+# Generate a web page that displays the movies in the list
 fresh_tomatoes.open_movies_page(movies)
