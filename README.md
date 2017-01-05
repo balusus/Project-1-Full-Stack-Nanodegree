@@ -12,10 +12,10 @@ Download the repository and install http-server npm package.
 
 There are three python files : 
 
- * entertainment_center.py - Builds the movie list and calls the method to generate the web page.
+ * <b>entertainment_center.py</b> - Builds the movie list and calls the method to generate the web page.
  
- * fresh_tomatoes.py - Takes in a list of movies and builds the HTML and opens up your default browser to display the generated HTML page.
+ * <b>fresh_tomatoes.py</b> - Takes in a list of movies and builds the HTML and opens up your default browser to display the generated HTML page.
  
- * media.py - Contains the class that provides the data structure to hold movie information.
+ * <b>media.py</b> - Contains the class that provides the data structure to hold movie information.
 
-And then, fresh_tomatoes.html will be generated when you run the program as described above. This file is the actual web page you would see in your browser
+And then, <b>fresh_tomatoes.html</b> will be generated when you run the program as described above. This file is the actual web page you would see in your browser
